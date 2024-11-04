@@ -52,10 +52,3 @@ mysql> SELECT COUNT(*) FROM film_text;
 
 
 ```
-
-
-
-
-
-
-![[IMG_3054.jpg]]

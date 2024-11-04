@@ -1,7 +1,7 @@
 # My Public Note 
 
 
-See on [my-pubilc-note](https://kss1022.github.io/my-note-public/).
+See on [my-pubilc-note](https://hanhyeongyu.github.io/my-note-public).
 
 This is a fork of the [Quartz](https://github.com/jackyzha0/quartz) repo 
 🔗 [Read the documentation and get started](https://quartz.jzhao.xyz/)

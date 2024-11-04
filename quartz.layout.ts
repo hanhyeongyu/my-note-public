@@ -1,26 +1,24 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-const commentConfig = {
-    provider: 'giscus',
-    options: {      
-      repo: 'kss1022/note-comment',      
-      repoId: 'R_kgDONBgKmQ',      
-      category: 'Comment',      
-      categoryId: 'DIC_kwDONBgKmc4CjbpS',
-    }
-}
-
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-     Component.Comments(commentConfig),
+     Component.Comments({
+      provider: 'giscus',
+      options: {      
+        repo: 'hanhyeongyu/note-comment',      
+        repoId: 'R_kgDONBgKmQ',      
+        category: 'Comment',      
+        categoryId: 'DIC_kwDONBgKmc4CjbpS',
+      }
+    }),
   ],
   footer: Component.Footer({
     links: {
-      MyGitHub: "https://github.com/kss1022",      
+      MyGitHub: "https://github.com/hanhyeongyu",      
     },
   }),
 }
